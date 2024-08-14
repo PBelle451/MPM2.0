@@ -1,17 +1,18 @@
 <section>
-    <!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <meta name="Description" content="Enter your description here" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-    <link rel="stylesheet" href="dashboard2.css">
-    <title>Login - Pessoa Física</title>
-</head>
-<body>
+  <!DOCTYPE html>
+  <html lang="pt-br">
+  <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <meta name="Description" content="Enter your description here" />
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+      <link rel="stylesheet" href="/frontend/src/app/login-usuario/login-usuario.component.css">
+      <title>Login - Pessoa Física</title>
+  </head>
+  
+  <body>
     <section class="vh-100 gradient-custom">
         <div class="container py-5 h-100">
           <div class="row d-flex justify-content-center align-items-center h-100">
@@ -42,7 +43,7 @@
                   </div>
       
                   <div>
-                    <p class="mb-0"><a href="/frontend/cadastro_user.html" class="text-white-50 fw-bold">Cadastre-se</a></p>
+                    <p class="mb-0"><a [routerLink]="['/frontend/cadastro-usuario.component.html']" class="text-white-50 fw-bold">Cadastre-se</a></p>
                   </div>
       
                 </div>
@@ -51,6 +52,6 @@
           </div>
         </div>
       </section> 
-</body>
-</html>
+  </body>
+  </html>
 </section>

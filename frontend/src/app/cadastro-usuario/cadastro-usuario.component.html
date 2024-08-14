@@ -1,5 +1,5 @@
 <section>
-    <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
@@ -8,7 +8,7 @@
     <meta name="Description" content="Enter your description here" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-    <link rel="stylesheet" href="dashboard2.css">
+    <link rel="stylesheet" href="/frontend/src/app/cadastro-usuario/cadastro-usuario.component.css">
     <title>Cadastro - Pessoa Física</title>
 </head>
 <body>
@@ -102,7 +102,7 @@
                         
                   <button class="btn btn-outline-light btn-lg px-5" type="submit">Cadastrar</button>
                   <div class="mt-5">
-                    <p class="mb-0">Já tem uma conta? <a href="/frontend/login_user.html" class="text-white-50 fw-bold">Faça login</a></p>
+                    <p class="mb-0">Já tem uma conta? <a [routerLink]="['/frontend/login_usuario.html']" class="text-white-50 fw-bold">Faça login</a></p>
                   </div>
                 </div>
               </div>
